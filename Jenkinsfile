@@ -26,6 +26,7 @@ pipeline{
                     -Dsonar.sources=. \
                     -Dsonar.sourceEncoding=UTF-8"
                         }
+                }
                 }   
         stage('build'){
             steps{
