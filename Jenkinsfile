@@ -23,8 +23,8 @@ pipeline{
                     -Dsonar.sources=. \
                     -Dsonar.host.url=http://35.203.128.237:9000 \
                     -Dsonar.sources=. \
-                    -Dsonar.sourceEncoding=UTF-8" \
-                    -Dsonar.projectKey=demo 
+                    -Dsonar.sourceEncoding=UTF-8 \
+                    -Dsonar.projectKey=demo" 
                     
                         }
                 }
