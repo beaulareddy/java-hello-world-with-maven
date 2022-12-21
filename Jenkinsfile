@@ -20,7 +20,7 @@ pipeline{
                 steps {
                         withSonarQubeEnv('sonarqube') {
                         sh "${scannerHome}/bin/sonar-scanner \
-                    mvn sonar:sonar \ 
+                  mvn sonar:sonar \ 
                     -Dsonar.sources=. \
                     -Dsonar.host.url=http://35.203.128.237:9000 \
                     -Dsonar.sources=. \
